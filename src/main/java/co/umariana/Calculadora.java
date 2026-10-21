@@ -14,8 +14,7 @@ public class Calculadora {
 
     /** @return la suma de a y b */
     public int sumar(int a, int b) {
-        // TODO: escriba su código aquí
-        throw new UnsupportedOperationException("TODO: sumar");
+        return a + b;
     }
 
     /** @return a menos b */

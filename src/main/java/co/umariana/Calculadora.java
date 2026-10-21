@@ -32,7 +32,7 @@ public class Calculadora {
      * @throws ArithmeticException si b es 0 (mensaje: "No se puede dividir entre cero")
      */
     public double dividir(int a, int b) {
-        if (b == o){
+        if (b == 0){
             throw new ArithmeticException ("No se puede dividir entre cero");
         }
         return a / (double) b;
